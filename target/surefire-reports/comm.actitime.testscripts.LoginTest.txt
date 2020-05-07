@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: comm.actitime.testscripts.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 12.497 sec <<< FAILURE!
+loginTest(comm.actitime.testscripts.LoginTest)  Time elapsed: 5.154 sec  <<< FAILURE!
+java.io.FileNotFoundException: .src\main\resources\LoginData\Logincreds.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.actitime.commonutils.WebDriverUtils.getDataFromProperties(WebDriverUtils.java:15)
+	at comm.actitime.testscripts.LoginTest.loginTest(LoginTest.java:21)
+
